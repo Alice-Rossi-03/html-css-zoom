@@ -11,7 +11,7 @@ html{
 body{
     border: 1px dashed black;
     height: 100vh;
-    /* background-color: black; */
+    background-color: black;
 }
 
 .aside-right{
@@ -38,13 +38,13 @@ body{
     display: flex;
     gap: 5px;
     flex-wrap: wrap;
-    width: 90%;
-    margin: 0 auto;
+    /* width: 90%;
+    margin: 0 auto; */
     align-items: center;
 }
 
 .box{
-    width: calc((100% / 7) - 5px);
+    width: calc((100% / 10) - 5px);
     position: relative;
     object-fit: contain;
     margin-bottom: 5px;
@@ -63,4 +63,12 @@ body{
     color: white;
     font-size: 10px;
     padding: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: gray; 
+    color: white;
 }
