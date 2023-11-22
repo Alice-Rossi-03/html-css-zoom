@@ -40,15 +40,16 @@ body{
     flex-wrap: wrap;
     /* width: 90%;
     margin: 0 auto; */
-    align-items: center;
+    justify-content: center;
+    overflow: auto;
 }
 
-.box{
-    width: calc((100% / 10) - 5px);
+.box{ 
+    min-width: calc((100% / 10) - 50px);
     position: relative;
     object-fit: contain;
-    margin-bottom: 5px;
-}
+    margin-bottom: 5px; 
+} 
 
 .box img{
     display: block;
@@ -69,6 +70,30 @@ footer{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    background-color: gray; 
+    align-items: center;
+    background-color: rgb(47, 47, 47); 
     color: white;
+    padding: 10px;
+}
+
+.bottom{
+    display: flex;
+    gap: 30px;
+}
+
+.options{
+    margin-top: 10px;
+}
+
+.align{
+    text-align: center;
+    align-items: center;
+}
+
+.end-meeting{
+    text-align: center;
+    background-color: gray;
+    color: red;
+    padding: 20px;
+    border-radius: 5px;
 }
