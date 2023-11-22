@@ -9,7 +9,7 @@ html{
 }
 
 body{
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     height: 100vh;
     background-color: black;
 }
@@ -73,7 +73,7 @@ footer{
     align-items: center;
     background-color: rgb(47, 47, 47); 
     color: white;
-    padding: 10px;
+    padding: 20px; 
 }
 
 .bottom{
@@ -97,3 +97,7 @@ footer{
     padding: 20px;
     border-radius: 5px;
 }
+
+.share-screen{
+    fill: green;
+} 
