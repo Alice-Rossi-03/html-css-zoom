@@ -42,6 +42,7 @@ body{
     margin: 0 auto; */
     justify-content: center;
     overflow: auto;
+    padding-bottom: 200px;
 }
 
 .box{ 
@@ -74,6 +75,10 @@ footer{
     background-color: rgb(47, 47, 47); 
     color: white;
     padding: 20px; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .bottom{
